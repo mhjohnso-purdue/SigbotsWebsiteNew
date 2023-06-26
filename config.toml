@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.com"
-title = "Somrat | Hugo Portfolio Template"
+title = "Purdue SIGBots"
 theme = "somrat-master"
 # post pagination
 paginate = "6"
@@ -123,9 +123,9 @@ url = "about"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Service"
+name = "Achievements"
 pre = "#"
-url = "service"
+url = "achievements"
 weight = 3
 
 [[Languages.en.menu.main]]
@@ -178,9 +178,9 @@ url = "about"
 weight = 2
 
 [[Languages.fr.menu.main]]
-name = "Service"
+name = "Achievements"
 pre = "#"
-url = "service"
+url = "achievements"
 weight = 3
 
 [[Languages.fr.menu.main]]

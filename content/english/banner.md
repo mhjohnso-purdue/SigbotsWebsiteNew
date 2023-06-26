@@ -1,14 +1,15 @@
 ---
-title : "I'm Somrat Sorkar"
+title : "Purdue SIGBots"
 # full screen navigation
-first_name : "MacGyver"
-last_name : "SOMRAT"
+# first_name : "MacGyver"
+# last_name : "SOMRAT"
 bg_image : "images/backgrounds/full-nav-bg.jpg"
 # animated text loop
 occupations:
-- "Web Developer"
-- "Graphic Designer"
-- "Database Manager"
+- "VexU Team"
+- "Robotics"
+- "Software"
+- "Community Service"
 
 # slider background image loop
 slider_images:
@@ -19,8 +20,8 @@ slider_images:
 # button
 button:
   enable : true
-  label : "HIRE ME"
-  link : "#contact"
+  label : "Learn More"
+  link : "#about"
 
 
 # custom style

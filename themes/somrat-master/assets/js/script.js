@@ -200,16 +200,16 @@
 	/*--------------------------------
 			Start About Me
 	----------------------------------*/
-	// Initializing Skillbar Animation
-	$('.skill h3').waypoint({
+	// Initializing demosbar Animation
+	$('.demos h3').waypoint({
 		handler: function (direction) {
 			if (direction == "up") {
-				$('.skillbar').each(function () {
-					$(this).find('.skillbar-bar').css("width", "0");
+				$('.demosbar').each(function () {
+					$(this).find('.demosbar-bar').css("width", "0");
 				});
 			} else if (direction == "down") {
-				$('.skillbar').each(function () {
-					$(this).find('.skillbar-bar').animate({
+				$('.demosbar').each(function () {
+					$(this).find('.demosbar-bar').animate({
 						width: jQuery(this).attr('data-percent')
 					}, 2000);
 				});
@@ -284,9 +284,9 @@
 		happyClient.start();
 		projects.start();
 		coffee.start();
-		// Setting Skillbar Value Immediately
-		$('.skillbar').each(function () {
-			$(this).find('.skillbar-bar').animate({
+		// Setting demosbar Value Immediately
+		$('.demosbar').each(function () {
+			$(this).find('.demosbar-bar').animate({
 				width: jQuery(this).attr('data-percent')
 			}, 0);
 		});
@@ -314,9 +314,9 @@
 		happyClient.start();
 		projects.start();
 		coffee.start();
-		// Setting Skillbar Value Immediately
-		$('.skillbar').each(function () {
-			$(this).find('.skillbar-bar').animate({
+		// Setting demosbar Value Immediately
+		$('.demosbar').each(function () {
+			$(this).find('.demosbar-bar').animate({
 				width: jQuery(this).attr('data-percent')
 			}, 0);
 		});

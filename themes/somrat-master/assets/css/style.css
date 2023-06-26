@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Inter';
   height: 100%;
 }
 
@@ -922,12 +922,12 @@ input:checked+label span:last-child {
 
 /* ========= Start Experience ======= */
 
-.experience-skill {
+.experience-demos {
   margin-top: 40px;
 }
 
 .experience h3,
-.skill h3 {
+.demos h3 {
   color: #6f6f6f;
   font-weight: 700;
   letter-spacing: 2px;
@@ -991,13 +991,13 @@ ul.experience-chart h4 {
   top: -2px;
 }
 
-/* ========= Start Skill ======= */
+/* ========= Start Demographics ======= */
 
-.skill-progress-bar {
+.demos-progress-bar {
   margin-top: 41px;
 }
 
-.skillbar {
+.demosbar {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1019,24 +1019,24 @@ ul.experience-chart h4 {
   transition-property: width, background-color;
 }
 
-.no-js .first-skill {
+.no-js .first-demos {
   width: 98%;
 }
 
-.no-js .second-skill {
+.no-js .second-demos {
   width: 85%;
 }
 
-.no-js .third-skill {
+.no-js .third-demos {
   width: 92%;
 }
 
-.no-js .fourth-skill {
+.no-js .fourth-demos {
   width: 60%;
 }
 
-.skillbar-title,
-.skill-bar-percent {
+.demosbar-title,
+.demos-bar-percent {
   font-size: 16px;
   color: #4d4d4d;
   font-weight: 700;
@@ -1044,11 +1044,11 @@ ul.experience-chart h4 {
   margin-bottom: 7px;
 }
 
-.skill-bar-percent {
+.demos-bar-percent {
   float: right;
 }
 
-.skillbar-bar {
+.demosbar-bar {
   height: 10px;
   margin: 0px 2px;
   width: 0px;
@@ -1063,19 +1063,19 @@ ul.experience-chart h4 {
 ----------------------------------*/
 
 /*--------------------------------
-  Start Services
+  Start Achievements
 ----------------------------------*/
 
-.services {
+.achievements {
   background: #fff;
   padding: 70px 0px;
 }
 
-.services-heading {
+.achievements-heading {
   position: relative;
 }
 
-.services-heading h1 {
+.achievements-heading h1 {
   color: #6f6f6f;
   text-align: center;
   font-weight: 700;
@@ -1084,7 +1084,7 @@ ul.experience-chart h4 {
   position: relative;
 }
 
-.services-heading h1:before {
+.achievements-heading h1:before {
   content: "";
   position: absolute;
   top: -8px;
@@ -1096,7 +1096,7 @@ ul.experience-chart h4 {
   background: #6f6f6f;
 }
 
-.services-icon {
+.achievements-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1108,16 +1108,16 @@ ul.experience-chart h4 {
   padding-bottom: 40px;
 }
 
-.service-img {
+.achievements-img {
   width: 100px;
   margin: auto;
 }
 
-.services-icon img {
+.achievements-icon img {
   width: 100%;
 }
 
-.service-label {
+.achievements-label {
   position: absolute;
   left: 0;
   right: 0;
@@ -1128,7 +1128,7 @@ ul.experience-chart h4 {
   font-size: 19px;
 }
 
-.need-service {
+.need-achievements {
   width: 100%;
   background: #313131;
   background-repeat: no-repeat;
@@ -1153,7 +1153,7 @@ ul.experience-chart h4 {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.need-service h1 {
+.need-achievements h1 {
   position: relative;
   color: #fff;
   font-weight: 700;
@@ -1163,7 +1163,7 @@ ul.experience-chart h4 {
   z-index: 2;
 }
 
-.need-service a {
+.need-achievements a {
   position: relative;
   z-index: 2;
   text-decoration: none;
@@ -1178,7 +1178,7 @@ ul.experience-chart h4 {
   transition: background 0.5s;
 }
 
-.need-service a:hover {
+.need-achievements a:hover {
   background: transparent;
   color: #fff;
   border: 2px solid #fff;
@@ -1186,7 +1186,7 @@ ul.experience-chart h4 {
 }
 
 /*--------------------------------
- End Services
+ End Achievements
 ----------------------------------*/
 
 /*--------------------------------
@@ -2087,20 +2087,20 @@ textarea.form-control::-webkit-input-placeholder,
     flex-wrap: wrap;
   }
 
-  .experience-skill {
+  .experience-demos {
     margin-top: 10px;
   }
 
   .experience-chart,
-  .skill-progress-bar {
+  .demos-progress-bar {
     margin-top: 25px;
   }
 
-  .skill {
+  .demos {
     margin-top: 30px;
   }
 
-  .skillbar {
+  .demos {
     margin-bottom: 15px;
   }
 }
@@ -2126,11 +2126,11 @@ textarea.form-control::-webkit-input-placeholder,
 ----------------------------------*/
 
 @media(min-width: 526px) and (max-width: 767px) {
-  .services-icon img {
+  .achievements-icon img {
     width: 100%;
   }
 
-  .service-label {
+  .achievements-label {
     top: 110px;
     letter-spacing: 0;
     font-size: 17px;
@@ -2145,25 +2145,25 @@ textarea.form-control::-webkit-input-placeholder,
 }
 
 @media (max-width: 475px) {
-  .services-heading h1 {
+  .achievements-heading h1 {
     margin-bottom: 80px;
   }
 }
 
 @media (min-width:768px) and (max-width: 991px) {
-  .services {
+  .achievements {
     padding: 70px 0px 35px 0px;
   }
 }
 
 @media (max-width: 767px) {
-  .services {
+  .achievements {
     padding: 70px 0px 0px 0px;
   }
 }
 
 /*--------------------------------
- End Services
+ End Achievements
 ----------------------------------*/
 
 /*--------------------------------

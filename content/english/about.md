@@ -1,10 +1,10 @@
 ---
-title : "KNOW MORE <br> ABOUT ME"
+title : "KNOW MORE <br> ABOUT US"
 image : "images/backgrounds/portrait.jpg"
 # button
 button:
   enable : true
-  label : "DOWNLOAD MY CV"
+  label : "VIEW OUR WORK"
   link : "#"
 
 ########################### Experience ##############################
@@ -30,26 +30,26 @@ experience:
       duration : "2014-2018"
       content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
 
-############################### Skill #################################
-skill:
+############################### Demographics #################################
+demos:
   enable : true
-  title : "SKILL"
-  skill_list:
-    # skill item loop
-    - name : "Web Development"
-      percentage : "98%"
+  title : "DEMOGRAPHICS"
+  demos_list:
+    # demos item loop
+    - name : "Computer Science Majors"
+      percentage : "30%"
       
-    # skill item loop
-    - name : "Graphic Design"
-      percentage : "85%"
+    # demos item loop
+    - name : "Engineering Majors"
+      percentage : "30%"
       
-    # skill item loop
-    - name : "Database Management"
-      percentage : "90%"
+    # demos item loop
+    - name : "Polytechnic Majors"
+      percentage : "30%"
       
-    # skill item loop
-    - name : "Wordpress"
-      percentage : "70%"
+    # demos item loop
+    - name : "Other"
+      percentage : "10%"
 
 
 # custom style
@@ -58,6 +58,4 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-{{<model 60T Gear>}}
-
-It's Somrat, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me........😊
+Purdue ACM SIGBots is Purdue University’s VEX U robotics team established in 2010. Every year, we participate in the VEX U Robotics Competition, and we have qualified for the World Championships each season for the past ten seasons— for those of you counting, that’s every season since the club has been around!
