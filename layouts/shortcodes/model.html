@@ -3,13 +3,25 @@
 
 <!-- Use it like any other HTML element -->
 <div class="model-viewer">
+
+<style>
+    model-viewer {
+        width: 800px;
+        height: 600px;
+    }
+</style>
+
+
+
 <model-viewer 
 alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" 
-src="../../../static/cad/portfolio/{{index .Params 0}}.glb" 
+src="https://github.com/mhjohnso-purdue/SigbotsWebsiteNew/blob/0651009ab5d04b05c087238d44a15f03301844e8/static/cad/portfolio/60T-Gear.glb" 
 poster="../../../static/cad/portfolio/campSun.png" 
 shadow-intensity="1" 
 camera-controls 
-touch-action="pan-y">
+touch-action="pan-y"
+background-color="#d8cc9c"
+>
 
 <div class="progress-bar hide" slot="progress-bar">
     <div class="update-bar"></div>
@@ -17,10 +29,11 @@ touch-action="pan-y">
 
 </model-viewer>
 </div>
-
-
+<!--https://modelviewer.dev/shared-assets/models/shishkebab.glb-->
+<!--../../../static/cad/portfolio/{{index .Params 0}}.glb-->
 <p>this short code is still running! RAHH</p>
-<img src="../../static/images/contact-us-bg.jpg" alt="Bad Path" style="width:500px;height:500px;">
+
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="rahhh path" style="width:500px;height:500px;">
 
 
 <!-- ../../static/cad/portfolio/campSun.png -->
