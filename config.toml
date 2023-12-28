@@ -83,16 +83,16 @@ icon = "fab fa-instagram"
 link = "https://www.instagram.com/somratpro"
 
 [[params.social]]
-icon = "fab fa-instagram"
+icon = "fab fa-youtube"
 link = "https://www.youtube.com/@purduesigbots1869"
 
 [[params.social]]
-icon = "http://www.w3.org/2000/svg"
-link = "https://github.com/somratpro"
+icon = "fab fa-github"
+link = "https://github.com/purduesigbots"
 
 [[params.social]]
 icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/in/somratpro"
+link = "https://www.linkedin.com/company/purdue-acm-sigbots/"
 
 
 ################################### English language #####################################
@@ -115,7 +115,7 @@ url = "/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "About me"
+name = "About Us"
 pre = "#"
 url = "about"
 weight = 2
@@ -133,7 +133,7 @@ url = "portfolio"
 weight = 4
 
 [[Languages.en.menu.main]]
-name = "Testimonial"
+name = "Officers"
 pre = "#"
 url = "testimonial"
 weight = 5

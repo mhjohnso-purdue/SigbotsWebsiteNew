@@ -1,8 +1,6 @@
 ---
 title : "Purdue SIGBots"
 # full screen navigation
-# first_name : "MacGyver"
-# last_name : "SOMRAT"
 bg_image : "images/backgrounds/SU Team.jpg"
 # animated text loop
 occupations:
