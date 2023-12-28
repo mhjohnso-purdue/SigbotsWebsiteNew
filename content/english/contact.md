@@ -7,7 +7,6 @@ email: "Email"
 message: "Message"
 submit: "Submit"
 
-
 # custom style
 custom_class: "" 
 custom_attributes: "" 
