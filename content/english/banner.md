@@ -3,7 +3,7 @@ title : "Purdue SIGBots"
 # full screen navigation
 # first_name : "MacGyver"
 # last_name : "SOMRAT"
-bg_image : "images/backgrounds/full-nav-bg.jpg"
+bg_image : "images/backgrounds/SU Team.jpg"
 # animated text loop
 occupations:
 - "VexU Team"
@@ -13,9 +13,11 @@ occupations:
 
 # slider background image loop
 slider_images:
-- "images/slider/slider-1.jpg"
-- "images/slider/slider-2.jpg"
-- "images/slider/slider-3.jpg"
+- "images/slider/SU Team.jpg"
+- "images/slider/SU BLRS2.jpg"
+- "images/slider/TiP BLRS2.jpg"
+- "images/slider/CU Team.jpg"
+- "images/slider/TT Team.jpg"
 
 # button
 button:

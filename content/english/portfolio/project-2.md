@@ -6,6 +6,7 @@ categories: ["design","development"]
 description: "This is meta description."
 draft: false
 project_info:
+
 - name: "Client"
   icon: "fas fa-user"
   content: "John Doe"

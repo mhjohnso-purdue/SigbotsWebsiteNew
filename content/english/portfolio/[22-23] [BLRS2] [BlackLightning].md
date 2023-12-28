@@ -1,22 +1,22 @@
 ---
-title: "BLRS2 22-23 18'' Black Lightning"
-date: 2023-04-29T12:12:00:00-05:00
+title: "BLRS2 Black Lightning"
+date: 2020-05-12T12:14:34+06:00
 image: "images/portfolio/blackLightning.jpg"
-categories: ["robot","competitions"]
-description: "This is meta description."
-
+categories: ["Robot","Competition"]
+description: "Showcase of BLRS2's 18'' robot Black Lightning"
 draft: false
-
 project_info:
+
 - name: "Season"
   icon: "fas fa-user"
-  content: "Spin Up"
+  content: "2022-23 Spin Up"
 - name: "Project Link"
   icon: "fas fa-link"
   content: "https://examplesite.com/"
 ---
 
-{{<model 60T-Gear>}}
+<!--{{<example>}} -->
+{{<model ef9f9902ddd546519880c05caf1d6c1f>}}
 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
