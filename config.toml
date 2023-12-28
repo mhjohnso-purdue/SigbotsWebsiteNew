@@ -133,7 +133,7 @@ url = "portfolio"
 weight = 4
 
 [[Languages.en.menu.main]]
-name = "Officers"
+name = "Testimonial"
 pre = "#"
 url = "testimonial"
 weight = 5
