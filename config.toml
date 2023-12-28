@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://purduesigbots.com"
+baseURL = "https://mhjohnso-purdue.github.io/SigbotsWebsiteNew/"
 title = "Purdue SIGBots"
 theme = "somrat-master"
 # post pagination
