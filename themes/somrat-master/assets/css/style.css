@@ -1165,15 +1165,15 @@ ul.experience-chart h4 {
 
 .need-achievements a {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   text-decoration: none;
   color: #313131;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 25px;
   margin-top: 14px;
   display: inline-block;
   background: #fff;
-  padding: 10px 19px;
+  padding: 10px 40px;
   border-radius: 25px;
   transition: background 0.5s;
 }
@@ -1195,7 +1195,7 @@ ul.experience-chart h4 {
 
 .portfolio {
   background: #fff;
-  padding: 70px 0px;
+  padding: 125px 0px;
 }
 
 .portfolio h1 {
