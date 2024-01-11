@@ -19,16 +19,13 @@ achievements_list:
   image : "images/icons/worldChampionsIcon.png"
   
 # achievements item loop
-- name : "VEX Worlds Awards:<br>2023 Think Award,<br>2022 Skills Champion,<br>2022 World Finalist,<br>2021 QIPE Finalist,<br>2019 Create Award,<br>2014 Innovate Award,<br>2013 Innovate Award,<br>2013 Programming Skills"
-  image : "images/icons/worldsAwardsIcon.png"
-  
-# achievements item loop
 - name : "Never lost an event, that was not at Purdue or the World Championship"
   image : "images/icons/winningCompIcon.png"
 
-# Break for extra awards
-- name : " "
-  image : " "
+
+# achievements item loop
+- name : "VEX Worlds Awards:<br>2023 Think Award,<br>2022 Skills Champion,<br>2022 World Finalist,<br>2021 QIPE Finalist,<br>2019 Create Award,<br>2014 Innovate Award,<br>2013 Innovate Award,<br>2013 Programming Skills"
+  image : "images/icons/worldsAwardsIcon.png"
 
 # custom style
 custom_class: "" 
